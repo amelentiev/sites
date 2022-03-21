@@ -1,0 +1,1089 @@
+html,body{
+
+}
+a{
+    text-decoration: none !important;
+}
+#projectsCarousel.mobile{
+    display: none;
+}
+.carousel-indicators li{
+    margin-left: 0;
+    margin-right: 0;
+    background-color:#A0A0A0;
+    opacity: 1;
+}
+.carousel-indicators .active{
+    background-color: #101112;
+}
+#projectsCarousel .carousel-indicators li{
+    background-color: white;
+}
+#projectsCarousel .carousel-indicators .active{
+    background-color: #B99C66;
+}
+#left,#right,#center{
+    cursor: pointer;
+}
+.line{
+    border: 3px solid #B99C66;
+    width: 50px;
+}
+.navbar-light .navbar-toggler{
+    display: none;
+}
+.mainImg{
+    margin-top: -125px;
+    height: 100vh;
+    width: 100%;
+}
+.darkened {
+    position: relative;
+}
+.darkened::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(51, 51, 51, 0.45);
+    z-index: 1;
+}
+.newContainer{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.bg-light{
+    background: transparent !important;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    z-index: 5;
+}
+.bg-dark{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    z-index: 5;
+    background: transparent !important;
+}
+.navbar-brand{
+    padding: 0;
+}
+nav ul{
+    margin: auto;
+}
+nav li{
+    padding-left: 51px;
+    padding-right: 51px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.navbar-light.bg-dark .navbar-nav .nav-link{
+    color:  #A0A0A0;;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover,
+.navbar-light.bg-dark .navbar-nav .nav-link:focus, .navbar-light.bg-dark .navbar-nav .nav-link:hover{
+    color: #B99C66;
+}
+nav ul.langMenu li{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.mainBlock{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    color: white;
+}
+.mainBlock{
+    top: 40vh;
+}
+h1.mbTitle{
+    padding-bottom: 40px;
+    font-size: 40px !important;
+    margin: 0;
+    font-weight: 500;
+}
+.mainBlock h4{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+}
+.leftBlock{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background: #333333;
+    float: left;
+    position: relative;
+    bottom: -25.9vh;
+}
+#slideTwo .leftBlock{
+    bottom: 18.5vh;
+}
+#slideThree .leftBlock{
+    bottom: -23px;
+}
+.leftBlock div{
+    display: inline-block;
+}
+.leftBlock .pages{
+    cursor: pointer;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #A0A0A0;
+    font-size: 24px;
+}
+.leftBlock .pages.active{
+    color: #ffffff;
+    border-right: 1px solid #ffffff !important;
+}
+.pageNumbers{
+    padding-right: 75px;
+}
+#p1.pages,#p2.pages,#p3.pages{
+    border: 0;
+}
+
+.pageNav{
+    padding-right: 75px;
+}
+.pageNav img{
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#p1-carousel img{
+    margin-left: 0;
+}
+#p3-carousel img{
+    margin-right: 0;
+}
+.arrows img{
+    cursor: pointer;
+    margin-top: -10px;
+    padding-right: 25px;
+}
+.rightBlock{
+    width: auto;
+    background-color: white;
+    padding: 95px;
+    padding-bottom: 80px;
+    position: relative;
+    float: right;
+    bottom: -6.5vh;
+    color: black;
+}
+#slideThree .rightBlock{
+    bottom: 73px;
+    background: #333333;
+    color: white;
+    padding: 55px;
+}
+.rightBlock h3{
+    margin: 0;
+    font-size: 24px;
+    padding-bottom: 42px;
+}
+.rightBlock .line{
+    float: left;
+    margin-top: 10px;
+}
+.rightBlock a{
+    color: #A0A0A0;
+    float: right;
+}
+
+.video{
+    border: 70px solid #40c4c8;
+    -moz-border-image: url(../img/videoBorder.png) 100 round round;
+    -webkit-border-image: url(../img/videoBorder.png) 100 round round;
+    -o-border-image: url(../img/videoBorder.png) 100 round round;
+    border-image: url(../img/videoBorder.png) 100 round round;
+}
+img.video{
+    cursor: pointer;
+}
+video.video{
+    display: none;
+}
+.videoBlock{
+    padding-top: 240px;
+    padding-bottom: 82px;
+}
+.rightText{
+    padding-top: 100px;
+    padding-left: 124px;
+}
+.rightText .line{
+    margin-bottom: 30px;
+}
+.rightText h3{
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    margin: 0;
+}
+.rightText p{
+    font-weight: normal;
+    font-size: 14px;
+    color: #A0A0A0;
+    text-align: justify;
+}
+
+.lineNavBlock{
+    padding-top: 87px;
+    padding-bottom: 101px;
+}
+.lineNavBlock .line{
+    border: 2px solid;
+    border-color: #A0A0A0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.lineNavBlock .line.active{
+    border-color: #B99C66;
+}
+.lineNavBlock a{
+    font-size: 16px;
+    color: #A0A0A0;
+    cursor: pointer;
+}
+.lineNavBlock a:hover{
+    color: #A0A0A0;
+}
+.lineNavBlock a.active{
+    color: #B99C66;
+}
+.lineNavBlock .navLeft{
+    margin-left: 17%;
+}
+.lineNavBlock .navRight{
+    margin-right: 17%;
+}
+
+#slideTwo,
+#slideThree,
+#whyWe,
+#portfolioList{
+    display: none;
+}
+.caseBoxMainScreen{
+    padding-bottom: 140px;
+}
+.expertFeedback{
+    padding-bottom: 240px;
+}
+.mainCont{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 15%;
+}
+#slideThree .mainCont{
+    padding-left: 0;
+}
+.caseBoxMainScreen,
+.expertFeedback{
+    color: #A0A0A0;
+}
+.caseBoxMainScreen .mainTop,
+.expertFeedback .mainTop{
+    font-size: 16px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+.caseBoxMainScreen .mainTitle,
+.expertFeedback .mainTitle{
+    font-size: 46px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+.caseBoxMainScreen .mainDescription,
+.expertFeedback .mainDescription{
+    font-size: 16px;
+}
+.whyWe{
+    padding-top: 140px;
+}
+.whyWe .line{
+    margin-top: 80px;
+}
+.whyWe h3{
+    font-size: 28px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.whyWe .mainDescription{
+    color: #A0A0A0;
+    font-size: 16px;
+}
+.listNumber{
+    font-size: 14px;
+    color: #A0A0A0;
+    padding-bottom: 25px;
+}
+.listFact{
+    font-size: 22px;
+    padding-bottom: 25px;
+}
+.listFactText{
+    color: #A0A0A0;
+    font-size: 14px;
+    padding-bottom: 200px;
+}
+.expertPhotos{
+    padding-top: 170px;
+    cursor: pointer;
+}
+#photoOne:hover.darkened::before,
+#photoOne:hover .photoInfo{
+    display: initial;
+}
+#photoTwo:hover.darkened::before,
+#photoTwo:hover .photoInfo{
+    display: initial;
+}
+#photoThree:hover.darkened::before,
+#photoThree:hover .photoInfo{
+    display: initial;
+}
+.expertPhotos .darkened::before{
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: -73px;
+    background: rgba(51, 51, 51, 0.6);
+    display: none;
+}
+.expertPhotos .photoInfo{
+    display: none;
+}
+.expertPhotos .textBorder{
+    margin-top: -179px;
+    z-index: 2;
+    position: relative;
+    font-size: 31px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.expertPhotos h5{
+    font-size: 11px;
+    padding-left: 14px;
+    padding-right: 14px;
+    position: relative;
+    color: white !important;
+    z-index: 2;
+}
+#projectsCarousel{
+    background-color: #101112;
+    height: 100vh;
+}
+#projectsCarousel .project{
+    margin-top: 70%;
+}
+#projectsCarousel small{
+    color: white;
+    font-size: 16px;
+}
+#projectsCarousel .project h1.title{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+#projectsCarousel .project p.description{
+    color: white;
+    display: none;
+}
+/*#projectsCarousel .project:hover h1.title{
+    color: white;
+}
+#projectsCarousel .project:hover p.description{
+    display: block;
+}*/
+#projectsCarousel .project.active h1.title{
+    color: white;
+}
+#projectsCarousel .project.active p.description{
+    display: block;
+}
+
+.projectList{
+    padding-top: 101px;
+}
+form.projectForm{
+    padding-bottom: 100px;
+}
+.selectWrapper{
+    width: 100%;
+    display:inline-block;
+    overflow:hidden;
+    background:#ffffff;
+    border:1px solid #cccccc;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/*.sel1{
+    -webkit-box-shadow: -12px 0px 16px 7px rgba(0,0,0,0.21);
+    -moz-box-shadow: -12px 0px 16px 7px rgba(0,0,0,0.21);
+    box-shadow: -12px 0px 16px 7px rgba(0,0,0,0.21);
+}
+.sel2{
+    -webkit-box-shadow: 12px 0px 16px 7px rgba(0,0,0,0.21);
+    -moz-box-shadow: 12px 0px 16px 7px rgba(0,0,0,0.21);
+    box-shadow: 12px 0px 16px 7px rgba(0,0,0,0.21);
+}*/
+.selectBox{
+    width: 100%;
+    height:40px;
+    border:0px;
+    outline:none;
+    background-color: white;
+}
+.sel1{
+    border-top-left-radius:100px;
+    border-bottom-left-radius:100px;
+    border-right: none;
+}
+.sel2{
+    border-top-right-radius:100px;
+    border-bottom-right-radius:100px;
+    border-left: none;
+}
+.projectList input{
+    border: 0;
+}
+.projectList input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.search{
+    border-radius: 100px !important;
+}
+
+.projectCard{
+    margin-top: -10vh;
+    cursor: pointer;
+}
+.projectListWithCards{
+    padding-bottom: 100px;
+}
+.projectList .darkened::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:  rgba(51, 51, 51, 0.65);
+    z-index: 1;
+}
+.projectCard h1{
+    font-size: 60px;
+    top: 28vh;
+    position: relative;
+}
+.textBorder{
+    -webkit-text-stroke: 2px white;
+    z-index: 2;
+    color: transparent;
+}
+.viewAllBlock{
+    padding-bottom: 100px;
+}
+a.viewAll{
+    color: #A0A0A0;
+}
+
+.contactsBlock{
+    padding-top: 100px;
+    color: #A0A0A0;
+    padding-bottom: 71px;
+}
+.map{
+    padding-bottom: 50px;
+}
+.contactsBlock span{
+    display: block;
+}
+.contactsBlock a{
+    color: #A0A0A0;
+}
+.contactsBlock .socialIcon{
+    padding-right: 31px;
+}
+
+.feedbackForm{
+    padding-top: 76px;
+    padding-bottom: 250px;
+}
+.feedbackForm h1{
+    font-size: 46px;
+    padding-bottom: 100px;
+}
+.feedbackForm label{
+    color: #A0A0A0;
+}
+.feedbackForm .form-control{
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #A0A0A0;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 22px;
+    color: #29292B;
+}
+.feedbackForm .form-control:focus{
+    box-shadow: none;
+    border-color: #29292B;
+}
+.feedbackForm .border-right{
+    border-right: 2px solid !important;
+    border-color: #A0A0A0 !important;
+}
+#inputMessage.form-control{
+    font-size: 18px;
+    border-bottom: none;
+    resize: none;
+}
+.btn-sent{
+    color: #29292B;
+}
+.btn-sent img{
+    padding-right: 20px;
+}
+
+/* Project Page */
+.projectPage .mainImg{
+    height: auto;
+}
+.projectPage .mainBlock{
+    top: 20vh;
+    text-align: center;
+}
+.projectPage .mainBlock h1{
+    font-size: 76px !important;
+}
+.projectPage .mainBlock a{
+    color: white;
+    text-decoration: none;
+}
+
+.generalProjectInformation{
+    padding-top: 200px;
+    padding-bottom: 134px;
+}
+.generalProjectInformation h2{
+    font-size: 46px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+.generalProjectInformation h4{
+    color: #A0A0A0;
+    font-size: 28px;
+    margin: 0;
+    padding-bottom: 75px;
+}
+.generalProjectInformation span.value {
+    font-size: 28px;
+    padding-bottom: 15px;
+    display: block;
+}
+.generalProjectInformation h5{
+    color: #A0A0A0;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.generalProjectInformation h2.rightName{
+    padding-bottom: 50px;
+}
+.generalProjectInformation p{
+    text-align: justify;
+    color: #A0A0A0;
+    padding-bottom: 25px;
+    margin: 0;
+}
+.generalProjectInformation .btn-view{
+    border: 2px solid #29292B;
+    border-radius: 44px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 0.5s all;
+}
+.generalProjectInformation .btn-view:hover {
+    background-color: #29292B;
+    color: white;
+}
+
+.advantages{
+    padding-top: 134px;
+    padding-bottom: 134px;
+}
+.advantages h1{
+    padding-top: 50px;
+    font-size: 46px;
+    color: #A0A0A0;
+    margin: 0;
+    padding-bottom: 76px;
+}
+.advantages h3{
+    margin: 0;
+    padding-bottom: 25px;
+}
+.advantages p{
+    color: #A0A0A0;
+    text-align: justify;
+}
+.carouselBlock{
+    padding-top: 117px;
+    padding-bottom: 134px;
+}
+
+@media only screen and (min-width: 1500px){
+    .leftBlock{
+        bottom: -28.9vh;
+    }
+    #slideTwo .leftBlock {
+        bottom: 17.5vh;
+    }
+    #slideThree .mainCont{
+        padding-top: 209px;
+    }
+    .expertPhotos{
+        padding-top: 225px;
+    }
+
+    .rightBlock{
+        padding: 135px;
+    }
+    .projectCard h1{
+        font-size: 69px;
+    }
+}
+@media only screen and (min-width: 1900px){
+    .leftBlock{
+        bottom: -34.1vh;
+    }
+    #slideTwo .mainCont,
+    #slideThree .mainCont{
+        padding-top: 250px;
+    }
+    #slideTwo .leftBlock {
+        bottom: 11vh;
+    }
+    #slideThree .expertPhotos{
+        padding-top: 265px;
+    }
+    #slideThree .leftBlock{
+        bottom: -162px;
+    }
+    #slideThree .rightBlock{
+        bottom: -66px;
+    }
+    .rightBlock {
+        padding: 156px;
+    }
+    .projectCard h1 {
+        font-size: 83px;
+    }
+}
+
+@media only screen and (max-width: 1366px){
+    .rightBlock{
+        bottom: -17.5vh;
+    }
+    .leftBlock{
+        bottom: -32.7vh;
+    }
+    .projectCard{
+        margin-top: -7.9vh;
+    }
+    .projectCard h1{
+        top: 21vh;
+    }
+    .projectPage .mainBlock{
+        top: 13vh;
+    }
+    #slideThree .expertPhotos{
+        padding-top: 250px;
+    }
+    #slideThree .rightBlock{
+        bottom: -40px;
+    }
+    #slideThree .leftBlock {
+        bottom: -136px;
+    }
+    #slideThree .mainCont{
+        padding-top: 220px;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .projectCard {
+        margin-top: -8.5vh;
+    }
+    #slideThree .leftBlock {
+        bottom: -68px;
+    }
+    #slideThree .mainCont{
+        padding-top: 220px;
+    }
+    #slideThree .expertPhotos{
+        padding-top: 250px;
+    }
+    #slideThree .rightBlock{
+        bottom: 28px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .leftBlock{
+        bottom: -23.9vh;
+    }
+    .rightBlock{
+        display: none;
+    }
+    .projectCard{
+        margin-top: -10.4vh;
+    }
+    .projectCard h1{
+        top: 23vh;
+    }
+    #slideThree .expertPhotos{
+        display: none;
+    }
+    #slideThree .mainCont {
+        width: 240%;
+        padding-top: 70px;
+    }
+    #projectsCarousel .project{
+        background-image: url("../img/projectsCarousel/example.png");
+        margin-top: 0;
+        height: 100%;
+        margin-bottom: 155px;
+    }
+    #projectsCarousel p.description{
+        display: block !important;
+    }
+
+
+    .projectPage .mainBlock {
+        top: 10.5vh;
+    }
+    .advantages h1{
+        padding-top: 0;
+    }
+}
+@media only screen and (max-width: 1024px) and  (height: 1366px){
+    .leftBlock {
+        bottom: -39.7vh;
+    }
+    .rightBlock{
+        display: none;
+    }
+    #slideThree .mainCont{
+        padding-top: 400px;
+        padding-bottom: 390px;
+    }
+    #projectsCarousel .project{
+        margin-bottom: 94%;
+    }
+    .projectCard {
+        margin-top: -5.9vh;
+    }
+    .projectCard h1 {
+        top: 13vh;
+    }
+
+    .projectPage .mainBlock {
+        top: 5.5vh;
+    }
+}
+@media only screen and (max-width: 823px){
+    form.projectForm{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px){
+    #slideTwo .mainCont {
+        padding-top: 80px;
+        padding-bottom: 0px;
+        padding-left: 15%;
+    }
+    #slideThree .mainCont {
+        padding-top: 230px;
+        padding-bottom: 230px;
+    }
+    #projectsCarousel .project{
+        margin-bottom: 73%;
+    }
+
+    .leftBlock {
+        bottom: -32.7vh;
+    }
+    .projectCard{
+        margin-top: -5.5vh;
+    }
+    .projectCard h1{
+        font-size: 40px;
+        top: 12vh;
+    }
+
+    .projectPage .mainBlock h1{
+        font-size: 55px !important;
+    }
+    .projectPage .mainBlock{
+        top: 5.5vh;
+    }
+    .generalProjectInformation span.value{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 812px) and (height: 375px){
+    .projectCard {
+        margin-top: -40.4vh;
+    }
+    .projectCard h1 {
+        top: 48vh;
+    }
+}
+@media only screen and (max-width: 736px){
+    .videoBlock{
+        padding-top: 121px;
+        padding-bottom: 40px;
+    }
+    .rightText{
+        padding-top: 60px;
+        padding-left: 0;
+    }
+    #projectsCarousel.desktop{
+        display: none !important;
+    }
+    #projectsCarousel.mobile{
+        display: block !important;
+        height: 68vh;
+        padding-top: 30px;
+    }
+    .lineNavBlock{
+        padding-top: 0;
+    }
+    .line{
+        border: 2px solid #B99C66;
+    }
+    .rightText .line{
+        margin-bottom: 40px;
+        padding-bottom: 0;
+    }
+    .projectList {
+        padding-top: 0;
+    }
+    .projectCard {
+        margin-top: -25.2vh;
+    }
+    .projectCard img{
+        width: 100%;
+    }
+    .projectCard h1{
+        font-size: 80px;
+        top: 72vh;
+    }
+    .projectListWithCards {
+        padding-bottom: 80px;
+    }
+    .viewAllBlock {
+        padding-bottom: 40px;
+    }
+    .contactsBlock{
+        padding-top: 40px;
+    }
+    br.mobile{
+        display: none;
+    }
+    span.mobile,
+    a.mobile{
+        padding-bottom: 40px;
+        display: block;
+    }
+    .feedbackForm h1{
+        padding-bottom: 40px;
+    }
+    .feedbackForm .border-right{
+        border-right: 0!important;
+    }
+
+
+    .projectPage .mainBlock{
+        display: none;
+    }
+    .generalProjectInformation{
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    .generalProjectInformation h2.rightName{
+        padding-top: 50px;
+    }
+    .projectPage .pl-0{
+        padding-right: 0 !important;
+    }
+    .advantages{
+        padding-bottom: 30px;
+    }
+    .advantages h1{
+        padding-top: 76px;
+    }
+    .advantages .pr-5{
+        padding-left: 3rem!important;
+    }
+    .advantages .pl-5{
+        padding-right: 3rem!important;
+    }
+    .advantages + .advantages{
+        padding-top: 30px;
+    }
+    .advantages + .advantages p{
+        padding-bottom: 80px;
+    }
+    .projectPage .pr-0{
+        padding-left: 0;
+    }
+    .carouselBlock{
+        padding-bottom: 30px;
+    }
+    .advantages + .advantages + .advantages{
+        padding-top: 30px;
+    }
+}
+@media only screen and (max-width: 667px){
+    .projectCard {
+        margin-top: -27.9vh;
+    }
+}
+@media only screen and (max-width: 568px){
+    .projectCard {
+        margin-top: -32.6vh;
+    }
+    .projectCard h1{
+        top: 85vh;
+    }
+}
+@media only screen and (max-width: 414px){
+    #slideOne .leftBlock{
+        bottom: -10.7vh;
+    }
+    #slideTwo .mainCont{
+        padding-top: 0;
+    }
+    #slideTwo .leftBlock{
+        bottom: 22.5vh;
+    }
+    #slideThree .mainCont{
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    #projectsCarousel.mobile{
+        height: 77vh;
+    }
+
+    .whyWe .line {
+        margin-top: -20px;
+    }
+    .whyWe .mainDescription{
+        padding-bottom: 50px;
+    }
+    .listFactText{
+        padding-bottom: 50px;
+    }
+
+    h1.mbTitle{
+        text-align: center;
+        font-size: 26px !important;
+    }
+    .mainBlock h4{
+        text-align: center;
+    }
+    .lineNavBlock .navRight{
+        margin-right: 0;
+    }
+    .projectCard {
+        margin-top: -11.7vh;
+    }
+    .projectCard h1 {
+        font-size: 65px;
+        top: 27vh;
+    }
+
+    .generalProjectInformation h2{
+        font-size: 44px;
+    }
+}
+@media only screen and (max-width: 375px){
+    #slideOne .leftBlock {
+        bottom: -5.7vh;
+    }
+    #slideTwo .leftBlock{
+        bottom: 29.5vh;
+    }
+    #slideThree .leftBlock {
+        bottom: 0;
+    }
+    .projectCard {
+        margin-top: -13.0vh;
+    }
+    .generalProjectInformation h2 {
+        font-size: 39px;
+    }
+    .advantages h1{
+        font-size: 39px;
+    }
+    .feedbackForm h1{
+        font-size: 45px;
+    }
+    #projectsCarousel.mobile{
+        height: 84vh;
+    }
+}
+@media only screen and (max-width: 375px) and (height: 812px){
+    #slideOne .leftBlock {
+        bottom: -15.7vh;
+    }
+    #slideTwo .leftBlock {
+        bottom: 6.5vh;
+    }
+    #slideThree .mainCont{
+        padding-top: 70px;
+        padding-bottom: 105px;
+    }
+    .projectCard {
+        margin-top: -10.6vh;
+    }
+    .projectCard h1{
+        top: 23vh;
+    }
+    #projectsCarousel.mobile{
+        height: 68vh;
+    }
+}
+@media only screen and (max-width: 320px){
+    .projectCard h1{
+        font-size: 54px;
+    }
+    .generalProjectInformation h2{
+        font-size: 33px;
+    }
+    .advantages h1 {
+        font-size: 33px;
+    }
+    #projectsCarousel.mobile {
+        height: 115vh;
+        padding-top: 100px;
+    }
+}
